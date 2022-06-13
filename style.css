@@ -1,0 +1,57 @@
+body{ 
+    background-color: aqua;
+
+}
+h1{
+    text-align: center;
+    color:blue ;
+}
+#form1{
+    text-align: center;
+}
+#f1Input{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.f1I{
+    margin: 10px;
+}
+#matInput{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.f2I{
+    margin: 10px;
+    border: 2px solid rgb(253, 18, 18);
+    padding: 5px;
+}
+.sign{
+    margin: 30px ;
+}
+#calculate{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px ;
+
+}
+#gMb{
+    display: inline-block;
+    text-decoration: none;
+    color: red;
+    border: 1px solid #fff;
+    padding: 13px 33px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+
+}
+#gMb:hover{
+    border: 1px solid pink;
+    background: pink;
+    transition: 1s;
+}
